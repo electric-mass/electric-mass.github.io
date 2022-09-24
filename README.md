@@ -1,6 +1,6 @@
 # electric-mass.github.io
 
-The [wap.github.io](http://electric-mass.github.io/) website code.
+The [electric-mass.github.io](http://electric-mass.github.io/) website code.
 
 ## Contributing
 
