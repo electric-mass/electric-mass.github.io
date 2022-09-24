@@ -1,0 +1,71 @@
+# Electric Mass Records website
+# Configuration parameters.
+
+baseURL = ""
+enableRobotsTXT = true
+disableKinds = [
+    "RSS",
+    "section",
+    "taxonomy",
+    "term"
+]
+languageCode = 'en-us'
+publishDir = "docs"
+theme = "electric-mass"
+title = "Electric Mass Records"
+
+[author]
+    name = "Frederico Martins"
+
+[params]
+    copyright = "&copy; 2022 Electric Mass Records"
+    description = "Electric Mass Records' website."
+    # headerBackground = "/images/background.jpg"
+    headerLogo = "/images/logo-big.png"
+    headerSubtitle = ""
+    # hideFooterTheme = false
+    keywords = [
+        "productions",
+        "records",
+        "label"
+    ]
+    revisitAfter = "30"
+    showFooterSocial = true
+    showHeaderSocial = true
+
+    [[params.social]]
+        name = "instagram"
+        url = "https://www.instagram.com/electricmassrecords/"
+    [[params.social]]
+        name = "facebook"
+        url = "https://www.facebook.com/Electric-Mass-Records-110751765094301"
+
+    # [[params.menuExtras]]
+    #     name = "shop"
+    #     url = "https://shop.electricmassrecords.com/"
+
+    # [params.style]
+        # backgroundColor = "#000000"
+        # faviconBackgroundColor = "#000000"
+        # fontColor = "#f8f8f8"
+        # fontColorHeader = "#f8f8f8"
+        # fontColorHover = "#ff8b04"
+        # fontColorLink = "#000000"
+        # fontSize = "16px"
+        # footerBackgroundColor = "#ffffff"
+        # footerFontColor = "#8a8a8f"
+        # footerFontColorHover = "#ff8b04"
+        # footerFontColorLink = "#8a8a8f"
+        # headerBackgroundColor = "#ffffff"
+        # headerFontColor = "#000000"
+        # headerFontColorHover = "#ff8b04"
+        # headerFontColorLink = "#000000"
+        # safariPinnedTabColor = "#000000"
+        # sectionBackgroundColors = "##a56729, #ffffff, #a56729, #ffffff, #a56729, #ffffff"
+        # sectionFontColors = "#000000, #000000, #000000, #000000, #000000, #000000"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableXML = false
+  minifyOutput = true
