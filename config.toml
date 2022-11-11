@@ -20,7 +20,7 @@ title = "Electric Mass Records"
 [params]
     copyright = "&copy; 2022 Electric Mass Records"
     description = "Electric Mass Records' website."
-    # headerBackground = "/images/background.jpg"
+    headerBackground = "/images/background.jpg"
     headerLogo = "/images/logo-big.png"
     headerSubtitle = ""
     # hideFooterTheme = false
@@ -39,12 +39,15 @@ title = "Electric Mass Records"
     [[params.social]]
         name = "facebook"
         url = "https://www.facebook.com/Electric-Mass-Records-110751765094301"
+    [[params.social]]
+        name = "discogs"
+        url = "http://discogs.com/seller/ElectricMassRecords"
 
-    # [[params.menuExtras]]
-    #     name = "shop"
-    #     url = "https://shop.electricmassrecords.com/"
+    [[params.menuExtras]]
+        name = "Store"
+        url = "https://store.electricmassrecords.com/"
 
-    # [params.style]
+    [params.style]
         # backgroundColor = "#000000"
         # faviconBackgroundColor = "#000000"
         # fontColor = "#f8f8f8"
@@ -53,15 +56,16 @@ title = "Electric Mass Records"
         # fontColorLink = "#000000"
         # fontSize = "16px"
         # footerBackgroundColor = "#ffffff"
-        # footerFontColor = "#8a8a8f"
+        footerBackgroundColor = "#f3f3f3"
+        footerFontColor = "rgba(18,18,18,0.75)"
         # footerFontColorHover = "#ff8b04"
-        # footerFontColorLink = "#8a8a8f"
+        footerFontColorLink = "rgba(18,18,18,0.75)"
         # headerBackgroundColor = "#ffffff"
         # headerFontColor = "#000000"
         # headerFontColorHover = "#ff8b04"
         # headerFontColorLink = "#000000"
         # safariPinnedTabColor = "#000000"
-        # sectionBackgroundColors = "##a56729, #ffffff, #a56729, #ffffff, #a56729, #ffffff"
+        sectionBackgroundColors = "#ffffff, #a56729, #ffffff, #a56729, #ffffff, #a56729"
         # sectionFontColors = "#000000, #000000, #000000, #000000, #000000, #000000"
 
 [minify]
